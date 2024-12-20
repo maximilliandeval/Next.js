@@ -35,7 +35,7 @@ export default function MjdComp() {
     if (value.data != undefined) {
       // value.data.children[0].data.created_utc, but "new Date()" constructor takes ms
       var dt = new Date(value.data.children[0].data.created_utc * 1000);
-      setQueryResults(dt.toUTCString() + " " + value.data.children[0].data.created_utc);
+      setQueryResults(dt.toUTCString() + " (" + value.data.children[0].data.created_utc + ")");
     } else {
       setQueryResults("No data found.");
     }
