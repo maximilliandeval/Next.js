@@ -1,6 +1,10 @@
 # Next.js
 
-This is a simple Next.js application which can be used to qury the last date & time a specific user made a post or a comment.
+Messing arount with Next.js, Node.js, and Tailwind CSS.
+
+Uses the Fetch API to query Reddit for the instant of most recent activity of a given user. 
+
+<br/>
 
 
 Instructions
@@ -23,6 +27,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 To stop an "npm run dev" process, simply press Ctrl + C in your terminal window; this sends an interrupt signal to the running process, effectively stopping it.
 
+Messing arount with Next.js, Node.js, and Tailwind CSS.
+
+Uses the Fetch API to query Reddit for the instant of most recent activity of a given user. 
+
+<br/>
 
 https://react.dev/learn/start-a-new-react-project
 
